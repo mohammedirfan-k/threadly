@@ -96,29 +96,29 @@
     justify-content: space-between;
 }
 
-.customer-2{
+.customer-2 {
     display: flex;
     gap: 10px;
 }
 
-.customer-3{
+.customer-3 {
     background-color: #f2f4f7;
     border-radius: 5px;
     padding: 15px;
 }
 
-.customer-container{
+.customer-container {
     padding: 20px;
     margin-top: 40px;
 }
 
 /* New Arrival*/
 
-.products{
+.products {
     position: relative;
 }
 
-.products button{
+.products button {
     position: absolute;
     top: 55%;
     left: 35%;
@@ -133,7 +133,7 @@
     white-space: nowrap;
 }
 
-.product-container{
+.product-container {
     display: flex;
     flex-wrap: wrap;
     gap: 170px;
@@ -142,9 +142,137 @@
     margin-bottom: 20px;
 }
 
-.new-arrival h2{
+.new-arrival h2 {
     padding-left: 20px;
 }
+
+/* News Letter */
+
+.news-letter input {
+    display: block;
+    width: 80%;
+    height: 20px;
+    border-color: black;
+    border-width: 3px;
+    padding: 10px;
+}
+
+.news-letter button {
+    background-color: #1D232C;
+    color: #f2f4f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #1D232C;
+    height: 180px;
+    padding-left: 80px;
+    padding-top: 100px;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Searchbar */
+.searchbar input{
+    border: none;
+    width: 95%;
+    height: 15px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.searchbar{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 25px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.searchbar input:focus{
+    outline: none;
+}
+
+/* Dress Section */
+.dress-section img{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.dress-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.products-box{
+    flex-basis: 25%;
+    margin-top: 10px;
+}
+
+.products-box p{
+    padding-left: 70px;
+}
+
+/* Contact */
+
+.contact{
+    background-color: #1D232C;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-box{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+}
+
+.input-1{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.msg-input{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.contact h2{
+    margin-bottom: 20px;
+}
+
+.contact button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact input:focus{
+    outline: none;
+}
+
 
 
 @media screen and (max-width: 700px) {
@@ -161,11 +289,11 @@
         display: none;
     }
 
-    .customer-1{
+    .customer-1 {
         display: none;
     }
 
-    .customer-2{
+    .customer-2 {
         flex-direction: column;
     }
 
